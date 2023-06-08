@@ -1,0 +1,259 @@
+.fit-picture {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(bg.jpg);
+}
+
+select {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    line-height: 28px;
+}
+
+#flm {
+    position: absolute;
+    width: 809px;
+    height: 118px;
+    left: 86px;
+    top: 38px;
+    z-index: 5;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #F9F8F8;
+}
+
+.rect {
+    position: absolute;
+    width: 300px;
+    height: 310px;
+    left: 86px;
+    top: 173px;
+
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(9.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 9px;
+}
+
+.container > input, select {
+    margin-bottom: 20px;
+}
+
+.slider-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#title {
+    box-sizing: border-box;
+    width: 194px;
+    height: 34px;
+    left: 105px;
+    top: 194px;
+    border: 1px solid #000000;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+
+    color: #201A1A;
+
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(9.5px);
+}
+
+#room {
+    box-sizing: border-box;
+
+    width: 194px;
+    height: 34px;
+    left: 105px;
+    top: 241px;
+    
+    border: 1px solid #000000;
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(9.5px);
+}
+
+.room1 {
+    width: 40px;
+    height: 16px;
+    left: 119px;
+    top: 250px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+
+    color: #000000;
+}
+
+#material {
+    box-sizing: border-box;
+
+    width: 194px;
+    height: 34px;
+    left: 105px;
+    top: 288px;
+
+    border: 1px solid #000000;
+    background: rgba(255, 255, 255, 0.14);
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(9.5px);
+}
+
+.m1 {
+    width: 52px;
+    height: 16px;
+    left: 119px;
+    top: 298px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+
+    color: #000000;
+}
+
+#width {
+    width: 136px;
+    height: 5px;
+    left: 105px;
+    top: 343px;
+
+    background: #E1DCDC;
+    border-radius: 2px;
+
+    
+}
+
+#height {
+    width: 136px;
+    height: 5px;
+    left: 105px;
+    top: 367px;
+
+    background: #E1DCDC;
+    border-radius: 2px;
+}
+
+#thickness {
+    width: 136px;
+    height: 5px;
+    left: 105px;
+    top: 391px;
+
+    background: #E1DCDC;
+    border-radius: 2px;
+}
+
+.slider-div {
+    margin-bottom: 1rem;
+}
+
+#add {
+    width: 194px;
+    height: 42px;
+    left: 105px;
+    top: 416px;
+    color: white;
+
+    margin-top: 1rem;
+    background: #000000;
+    box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.19);
+    backdrop-filter: blur(9.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 3px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+#material2 {
+    position: absolute;
+    width: 230px;
+    height: 42px;
+    left: 86px;
+    top: 610px;
+
+    border: 1px solid #000000;
+    backdrop-filter: blur(9.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 1px;
+}
+
+.m2 {
+    position: absolute;
+    width: 376px;
+    height: 44px;
+    left: 121px;
+    top: 654px;
+
+    
+
+    color: #000000;
+}
+
+#items {
+    position: absolute;
+    width: 550px;
+    height: 44px;
+    left: 121px;
+    top: 654px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+#delete {
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    left: 1110px;
+    top: 659px;
+    
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #F69595;
+}

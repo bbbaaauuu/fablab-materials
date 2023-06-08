@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <title> Fablab Materials</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img class="fit-picture" src="bg.jpg"> 
+
+        <div id="flm">Fablab Materials</div>
+
+        <div class="rect">
+            <div class="container">
+                <input id="title" type="text" placeholder="Title">
+                <br/>
+                <select id="room">
+                <option class="room1">016</option>
+                <br/>
+                <option class="room1">018</option> </select>
+                <br/>
+                <select id="material">
+                    <option class="m1">Plywood</option>
+                    <option class="m1">Acrylic</option>
+                    <option class="m1">Aluminum</option> 
+                </select>
+                <br/>
+                <div class="slider-div">
+                    <input id="width" onchange="updLabelW()" type="range" min="0" max="1000" step="100">
+                    <div id="width-slider">0</div>
+                </div>
+
+                <div class="slider-div">
+                    <input id="height" onchange="updLabelH()" type="range" min="0" max="1000" step="100">
+                    <div id="height-slider">0</div>
+                </div>
+
+                <div class="slider-div">
+                    <input id="thickness" onchange="updLabelT()" type="range" min="0" max="20" step="1">
+                    <div id="thickness-slider">0</div>
+                </div>
+                <button id="add" onclick="addItem()">Add item</button>
+            </div>
+                    
+            </div>
+            
+       <button id="delete" onclick="delitem()">Delete</button>
+
+        <select onchange="allitems()" id="material2">
+        <option class="m2">Plywood</option>
+        <option class="m2">Acrylic</option>
+        <option class="m2">Aluminum</option> 
+        <option class="m2">All</option></select>
+
+        <div id="items" ></div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
